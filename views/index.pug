@@ -12,6 +12,9 @@ block head
 
 block content
   div(id="map")
+  form(action="/api/route", method="get")
+  p RunningDistance:
+    input(type="number" name="runningDistance" placeholder="Running distance in km")
 
 block scripts
   include ../public/javascripts/leaflet_example.js
