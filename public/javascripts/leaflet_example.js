@@ -29,6 +29,8 @@ function onLocationFound(e) {
 
 map.on('locationfound', onLocationFound);
 
+console.log("teste");
+
 
 $(window).on("resize", function () {
     $("#map").height($(window).height()).width($(window).width());
