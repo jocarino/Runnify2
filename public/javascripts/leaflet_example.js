@@ -29,7 +29,7 @@ function onLocationFound(e) {
 
 map.on('locationfound', onLocationFound);
 
-console.log("teste");
+console.log("test123");
 
 
 $(window).on("resize", function () {
